@@ -115,7 +115,7 @@ const Dashboard: React.FC = () => {
           <span className="text-emerald-400/60 text-[11px] font-semibold tracking-widest uppercase">Live Overview</span>
         </div>
         <h1 className="text-white font-bold text-2xl">
-          Good morning, {admin?.name?.split(' ')[0]} 👋
+          Welcome, {admin?.name?.split(' ')[0]} 
         </h1>
         <p className="text-white/35 text-sm mt-0.5">Here's what's happening on Ghana Asaase today.</p>
       </div>
