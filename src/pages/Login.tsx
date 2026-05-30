@@ -192,12 +192,7 @@ const Login: React.FC = () => {
             <p className="text-white/38 text-sm leading-relaxed">Sign in to manage land registrations and ownership transfers.</p>
           </div>
 
-          {/* Demo hint */}
-          <div className="mb-6 p-3.5 rounded-xl bg-amber-500/5 border border-amber-500/14">
-            <p className="text-amber-400/65 text-[11px] font-semibold mb-1.5 uppercase tracking-wider">Demo Credentials</p>
-            <p className="text-amber-300/55 text-[11px] font-mono">admin@ghanaasaase.gov.gh</p>
-            <p className="text-amber-300/55 text-[11px] font-mono">Admin@2024!</p>
-          </div>
+       
 
           {/* Form */}
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
